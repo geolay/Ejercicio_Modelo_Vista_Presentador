@@ -5,7 +5,6 @@ public class Presentador {
     private IPresentador iPresentador;
 
     public Presentador(IPresentador iPresentador) {
-
         this.validationModel = new ValidationModel();
         this.iPresentador = iPresentador;
     }
